@@ -1,0 +1,342 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <link type="image/png" sizes="16x16" rel="icon" href=" {% static 'pools/img/0-731951-939394.ico' %}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разработчик игр</title>
+    <link rel="stylesheet" href="{% static 'pools/css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'pools/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn flex-center">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--=======Light/Dark theme button=======-->
+    <div class="theme-btn flex-center">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </div>
+
+    <!--=======Header=======-->
+    <header>
+      <div class="nav-bar">
+        <a href="#" class="logo">Денис</a>
+        <div class="navigation">
+          <div class="nav-items">
+            <div class="nav-close-btn"></div>
+            <a class="active" href="#home">Главная</a>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Мои навыки</a>
+            <a href="#services">Услуги</a>
+            <a href="#contact">Контакты</a>
+          </div>
+        </div>
+        <div class="nav-menu-btn"></div>
+      </div>
+    </header>
+
+    <!--=======Home section=======-->
+    <section class="home flex-center" id="home">
+      <div class="home-container">
+        <div class="media-icons">
+          <a href="https://m.vk.com/fayzullin03"><i class="fab fa-vk"></i></a>
+          <a href="https://t.me/denis200k"><i class="fab fa-telegram "></i></a>
+        </div>
+        <div class="info">
+          <h2>Приветствую! Меня зовут Денис   </h2>
+          <h3>Game developer</h3>
+          <p>Я создаю одни из самых лучших компьютерных игр в мире!</p>
+          <a href="obomne.html" class="btn">Ещё <i class="fas fa-arrow-circle-right"></i></a>
+        </div>
+        <div class="about-img">
+               <img src="{% static 'pools/img/photo1686333238.jpeg' %}" alt="">
+        </div>
+      </div>
+      <a href="#about" class="scroll-down">Scroll-down<i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <!--=======About section=======-->
+    <section class="about section"  id="about">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Обо мне</h1>
+        <h2 class="section-title-02">Обо мне</h2>
+        <div class="content flex-center">
+          <div class="about-img">
+            <img src="{% static 'pools/img/photo1686320295.jpeg' %}" alt="">
+          </div>
+          <div class="about-info">
+            <div class="description">
+              <h3>Я создаю ваши любимые игры:)</h3>
+              <h4>Лучший <span>Game developer</span> из <span>Москвы</span></h4>
+              <p>Разрабатываю и создаю видеоигры на многих языках программирования.</p>
+            </div>
+            <ul class="professional-list">
+              <li class="list-item">
+                <h3>5++</h3>
+                <span>Лет<br>опыта</span>
+              </li>
+              <li class="list-item">
+                <h3>3K+</h3>
+                <span> Счастливых<br>Пользователей</span>
+              </li>
+              <li class="list-item">
+                <h3>100+</h3>
+                <span>Успешных<br>проектов</span>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <a href="podrobnee.html" class="btn">Ещё <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </section>
+
+    <!--=======Skills section=======-->
+    <section class="skills section" id="skills">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Мои навыки</h1>
+        <h2 class="section-title-02">Мои навыки</h2>
+        <div class="contant">
+          <div class="skills-description">
+            <h3>Образование</h3>
+            <p>Я уже более 5 лет занимаюсь создание видеоигр и уже больше 10 лет занимаюсь и изучаю IT-технологии.</p>
+          </div>
+          <div class="skills-info education-all">
+            <div class="education">
+              <h4><label>Образование</label></h4>
+              <ul class="edu-list">
+                <li class="item">
+                  <span class="year">2013-2018</span>
+                  <p> <span> В Магнитогорске </span> - Кибер школа IT</p>
+                </li>
+                <li class="item">
+                  <span class="year">2018-2021</span>
+                  <p> <span> Pixel </span> - Дополнительное обучение программированию</p>
+                </li>
+                <li class="item">
+                  <span class="year">2021-2023</span>
+                  <p> <span>RUDN</span>- Лучшее образование для IT-специалистов</p>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h4><label>Skills</label></h4>
+              <ul class="bars">
+                <li class="bar">
+                  <div class="info">
+                    <span>JavaScript</span>
+                    <span>95%</span>
+                  </div>
+                  <div class="line html"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="line css"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>HTML</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="line js"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>Python</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="line jq"></div>
+                </li>
+                <li class="bar">
+                  <div class="info">
+                    <span>C++</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="line php"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="education">
+              <h4><label>Достижения</label></h4>
+              <ul class="edu-list">
+                <li class="item">
+                  <span class="year">2021</span>
+                  <p> <span> Лучший Game developer страны  </span>- по мнению Вадима Сергеевича</p>
+                </li>
+                <li class="item">
+                  <span class="year">2022</span>
+                  <p> <span>  Победитель Хакатона 2022</span></p>
+                </li>
+                <li class="item">
+                  <span class="year">2023</span>
+                  <p> <span> Онлайн моей игры около 1 миллиона человек  </span>- CS 2 </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+         <a href="echo.html" class="btn">Ещё <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </section>
+
+    <!--=======Services section=======-->
+    <section class="services section " id="services">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Услуги</h1>
+        <h2 class="section-title-02">Услуги</h2>
+        <div class="content">
+          <div class="services-description">
+            <h3>Что я предлагаю?</h3>
+          </div>
+          <ul class="service-list">
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>Консультация по играм</h3>
+                <div class="learn-more-btn">Узнать больше <i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Консультация по играм</h3>
+                  <h4>Что я могу предложить?</h4>
+                  <p>Мы можем обсудить с вами тему игры, а так же все функции, которые я могу сделать в любой видеоигре!</p>
+                  <h4>Что я умею?</h4>
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i> Сделать качественную игру</li>
+                    <li><i class="fas fa-check-circle"></i> Сделать в короткие сроки</li>
+                    <li><i class="fas fa-check-circle"></i> Сделать по дешёвому ценику</li>
+                    <li><i class="fas fa-check-circle"></i> Сделать вас счастливым</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fas fa-photo-video"></i>
+                <h3>Дизайн видеоигры</h3>
+                <div class="learn-more-btn">Узнать больше <i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Дизайн видеоигры</h3>
+                  <h4>Какие дизайны существуют?</h4>
+                  <p>Дизайнов видеоигр огромное количество. Мы можем сначала решить какая основная тема игры будет.</p>
+                  <h4>Какие дизайны я могу сделать?</h4>
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i> Дизайн хоррор игры</li>
+                    <li><i class="fas fa-check-circle"></i> Дизайн гонок</li>
+                    <li><i class="fas fa-check-circle"></i> Дизайн шутеров</li>
+                    <li><i class="fas fa-check-circle"></i> Дизайн спортивных игр</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fas fa-file-code"></i>
+                <h3>Web-разработка</h3>
+                <div class="learn-more-btn">Узнать больше <i class="fas fa-long-arrow-alt-right"></i></div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Web-разработка</h3>
+                  <h4>Что такое Web-разработка?</h4>
+                  <p>Сервисы веб-разработки используются для проектирования, сборки, поддержки и развития всех типов веб-программного обеспечения.</p>
+                  <h4>Что я предлагаю?</h4>
+                  <ul>
+                    <li><i class="fas fa-check-circle"></i>Разработка веб-приложений</li>
+                    <li><i class="fas fa-check-circle"></i>Тестировка</li>
+                    <li><i class="fas fa-check-circle"></i>Поддержка</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+                 <a href="services.html" class="btn">Ещё <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </section>
+
+
+
+
+
+    <!--=======Contact section=======-->
+    <section class="contact section " id="contact">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Свяжитесь со мной</h1>
+        <h2 class="section-title-02">Свяжитесь со мной</h2>
+        <div class="content">
+          <div class="contact-left">
+            <h2>Давайте обсудим ваш проект</h2>
+            <ul class="contact-list">
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-phone"></i>Телефон
+                </h3>
+                <span>+7 (951) 484 3481</span>
+              </li>
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-envelope"></i>Моя почта
+                </h3>
+                <span><a href="mailto:martain@email.co">fajzullin03@list.ru</a></span>
+              </li>
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-map-marker-alt"></i>Мой адрес
+                </h3>
+                <span>г. Москва, ул.Миклухо маклая 21 к2</span>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-rigth">
+            <p>Я всегда открыт для обсуждения <br><span>вашего проекта</span></p>
+            <form action="feedback/" method="post" class="contact-form">
+              {% csrf_token %}
+              <div class="third-row">
+                <input name="email" type="email" placeholder="Почта">
+                <textarea name="message" id="" rows="7" placeholder="Сообщение"></textarea>
+              </div>
+              <button class="btn" type="submit">Отправить сообщение <i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=======Footer=======-->
+    <footer>
+      <div class="footer-container">
+        <div class="hr"></div>
+        <div class="info group">
+          <h3>Больше информации</h3>
+          <ul>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="hr"></div>
+      </div>
+    </footer>
+    <!--=======External scripts=======-->
+    <script src="{% static 'pools/js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'pools/js/main.js' %}"></script>
+
+  </body>
+</html>
